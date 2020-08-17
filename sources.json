@@ -1,0 +1,9 @@
+{
+    "configurations": [
+        {
+            "name": "Microsft SMTP",
+            "server": "smtp.office365.com",
+            "port": "587"
+        }
+    ]
+}
