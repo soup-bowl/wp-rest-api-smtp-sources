@@ -1,9 +1,23 @@
 {
     "configurations": [
         {
-            "name": "Microsft SMTP",
+            "name": "Gmail",
+            "server": "smtp.gmail.com",
+            "port": "587",
+            "authentication": true
+        },
+        {
+            "name": "Microsoft Exchange",
             "server": "smtp.office365.com",
-            "port": "587"
+            "port": "587",
+            "authentication": true
+        },
+        {
+            "name": "SendGrid",
+            "server": "smtp.sendgrid.net",
+            "port": "587",
+            "authentication": true,
+            "user": "apikey"
         }
     ]
 }
