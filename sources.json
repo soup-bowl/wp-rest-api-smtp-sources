@@ -18,6 +18,18 @@
             "port": "587",
             "authentication": true,
             "user": "apikey"
+        },
+        {
+            "name": "Pepipost",
+            "server": "smtp.pepipost.com",
+            "port": "587",
+            "authentication": true
+        },
+        {
+            "name": "SendinBlue",
+            "server": "smtp-relay.sendinblue.com",
+            "port": "587",
+            "authentication": true
         }
     ]
 }
