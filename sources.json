@@ -30,6 +30,12 @@
             "server": "smtp-relay.sendinblue.com",
             "port": "587",
             "authentication": true
+        },
+        {
+            "name": "Amazon SES",
+            "server": "email-smtp.<CHANGE>.amazonaws.com",
+            "port": "587",
+            "authentication": true
         }
     ]
 }
