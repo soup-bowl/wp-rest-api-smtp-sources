@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Gmail",
+            "name": "Gmaila",
             "server": "smtp.gmail.com",
             "port": "587",
             "authentication": true
