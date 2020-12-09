@@ -4,20 +4,23 @@
             "name": "Gmail",
             "server": "smtp.gmail.com",
             "port": "587",
-            "authentication": true
+            "authentication": true,
+            "encryption": "tls"
         },
         {
             "name": "Microsoft Exchange",
             "server": "smtp.office365.com",
             "port": "587",
-            "authentication": true
+            "authentication": true,
+            "encryption": "tls"
         },
         {
             "name": "SendGrid",
             "server": "smtp.sendgrid.net",
             "port": "587",
             "authentication": true,
-            "user": "apikey"
+            "user": "apikey",
+            "encryption": "tls"
         },
         {
             "name": "Pepipost",
@@ -34,8 +37,9 @@
         {
             "name": "Amazon SES",
             "server": "email-smtp.<CHANGE>.amazonaws.com",
-            "port": "587",
-            "authentication": true
+            "port": "465",
+            "authentication": true,
+            "encryption": "tls"
         }
     ]
 }

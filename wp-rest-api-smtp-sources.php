@@ -10,7 +10,7 @@
  * Plugin Name:       REST API - SMTP Sources
  * Description:       Outputs standard mail configs via REST API.
  * Plugin URI:        https://github.com/soup-bowl/wp-rest-api-smtp-sources
- * Version:           2
+ * Version:           3
  * Author:            soup-bowl
  * Author URI:        https://www.soupbowl.io
  * License:           MIT
@@ -19,6 +19,7 @@
 add_action(
 	'rest_api_init',
 	function () {
+		// /wp-json/wprass/v1/sources
 		register_rest_route(
 			'wprass/v1',
 			'/sources',
