@@ -2,7 +2,7 @@
 name: Incorrect/missing SMTP Setting Report
 about: Is an SMTP setting showing up wrong or incorrect? Report your change here.
 title: ''
-labels: bug
+labels: bad SMTP
 assignees: soup-bowl
 
 ---
